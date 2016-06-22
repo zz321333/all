@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "---"
+./clean
+echo "---"
+echo ""
+echo ""
+echo ""
+echo "---"
+./make
+echo "---"

@@ -1,0 +1,6 @@
+#!/bin/sh
+cd libzz
+make clean
+cd ../zzgame
+make clean
+echo "its ok."
