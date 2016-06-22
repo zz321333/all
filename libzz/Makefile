@@ -1,6 +1,6 @@
 LIB = libzz.a
 MODULES_PATH = ../modules
-MODULES = zzlog zzdefines zzpool zzstring
+MODULES = zzlog zzdefines zzpool zzstring zzapp zzappparams
 SUBDIRS = $(addprefix $(MODULES_PATH)/, $(MODULES))
 CURRENT_PATH = $(shell pwd)
 INCLUDE_PATH = $(CURRENT_PATH)/include
